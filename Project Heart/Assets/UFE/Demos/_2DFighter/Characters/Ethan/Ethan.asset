@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e5269517f28664db5ccd78cbd208b1, type: 3}
+  m_Name: Ethan
+  m_EditorClassIdentifier: 
+  gameplayType: 0
+  profilePictureSmall: {fileID: 2800000, guid: 732b03cedb33338429bf2ce31b12cfb0, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: dac8e3d31c37f4146a276a538033c068, type: 3}
+  characterName: Ethan
+  gender: 1
+  characterDescription: 'Project: Fighter 2D
+
+    Model Type: 3D Model
+
+    Animation
+    Type: Mecanim'
+  selectionAnimation: {fileID: 7400000, guid: 539e40ab39975ad4ab85d6d58237823e, type: 2}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  height: 168
+  age: 25
+  bloodType: Unknown
+  lifePoints: 1100
+  maxGaugePoints: 1000
+  characterPrefabStorage: 1
+  characterPrefab: {fileID: 0}
+  prefabResourcePath: _2DFighter\Characters\Ethan
+  alternativeCostumes:
+  - name: Red Ethan
+    characterPrefabStorage: 1
+    prefab: {fileID: 0}
+    prefabResourcePath: _2DFighter\Characters\Ethan
+    enableColorMask: 1
+    colorMask: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 0}
+  initialPosition:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 3037000704
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 3037000704
+  physics:
+    _moveForwardSpeed:
+      _serializedValue: 28776280064
+    _moveBackSpeed:
+      _serializedValue: 25769803776
+    _moveSidewaysSpeed:
+      _serializedValue: 17179869184
+    highMovingFriction: 1
+    _friction:
+      _serializedValue: 128849018880
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 0
+    _jumpForce:
+      _serializedValue: 180388626432
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    _jumpDistance:
+      _serializedValue: 51539607552
+    _jumpBackDistance:
+      _serializedValue: 42949672960
+    cumulativeForce: 1
+    multiJumps: 1
+    _weight:
+      _serializedValue: 1632087572480
+    jumpDelay: 5
+    landingDelay: 7
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments:
+    - firstTransform: {fileID: 0}
+      lastTransform: {fileID: 0}
+      bodyPart: 1
+      thresholdAngleDifference: 0
+      bendingMultiplier: 0.5
+      maxAngleDifference: 30
+      maxBendingAngle: 45
+      responsiveness: 4
+    nonAffectedJoints:
+    - joint: {fileID: 0}
+      bodyPart: 4
+      effect: 0.3
+    - joint: {fileID: 0}
+      bodyPart: 5
+      effect: 0.3
+    target: 1
+    effect: 0.8
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+    zAxisMovement: 0
+    disableJump: 0
+    disableCrouch: 0
+    jumpButton: 2
+    crouchButton: 3
+  hideGauges: 00000000000000000000
+  _executionTiming:
+    _serializedValue: 858993472
+  possibleAirMoves: 10
+  _blendingTime:
+    _serializedValue: 85899344
+  animationType: 1
+  avatar: {fileID: 9000000, guid: b235179bd2a63d1468dd430670338c55, type: 3}
+  useScaleFlip: 0
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 1
+  normalizeAnimationFrames: 0
+  stanceResourcePath:
+  - _2DFighter\MoveSets\Ethan_Stance_1
+  - _2DFighter\MoveSets\Ethan_Stance_2
+  moves: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 381a98fe3348ea640801d8072511a960, type: 2}
+    behavior: 4
